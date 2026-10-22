@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Campus Portfolio Website",
+        "category": "Web",
+        "description": "A responsive multi-page portfolio that organizes professional interests, skills, experience, and academic projects.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Campus Wellness Fair",
+        "category": "Web",
+        "description": "A responsive event page with featured activities and a personal activity planner with add, clear, and highlight features.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Product List Counter",
+        "category": "Programming",
+        "description": "A beginner Python exercise that reads a product list from a file and counts how many times each product appears.",
+        "technologies": [
+            "Python",
+            "Files",
+            "Dictionaries"
+        ]
+    },
+    {
+        "title": "BatStore Sales Database",
+        "category": "Data",
+        "description": "A database assignment focused on product and vendor tables, foreign keys, data insertion, and SELECT queries.",
+        "technologies": [
+            "MySQL",
+            "SQL",
+            "Relational Databases"
+        ]
+    },
+    {
+        "title": "Consumer Market & Brand Strategy",
+        "category": "Business",
+        "description": "A team business project using consumer and market information to support positioning, pricing, website content, and sales strategy.",
+        "technologies": [
+            "Market Research",
+            "Pricing",
+            "Wix",
+            "Social Media"
+        ]
+    },
+    {
+        "title": "Restaurant Review Analysis",
+        "category": "Data",
+        "description": "A data exercise matching restaurant names to review records and comparing review-rating counts to explore review patterns.",
+        "technologies": [
+            "Python",
+            "JSON",
+            "Data Analysis"
+        ]
+    }
+]

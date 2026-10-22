@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark site-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="skills.html">Skills</a>
+                    <a class="nav-link" href="experience.html">Experience/Education</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container py-5">
+            <p class="eyebrow">WHAT I BRING</p>
+            <h1 class="display-5 fw-bold">Skills</h1>
+            <p class="lead mb-0">A mix of business knowledge, technical learning, and collaboration.</p>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card skill-card h-100">
+                    <div class="card-body">
+                        <h2 class="h4">Business & Marketing</h2>
+                        <span class="badge skill-badge">Market Research</span>
+                        <span class="badge skill-badge">Brand Development</span>
+                        <span class="badge skill-badge">Sponsorship Outreach</span>
+                        <span class="badge skill-badge">Project Management</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card skill-card h-100">
+                    <div class="card-body">
+                        <h2 class="h4">Data & Technology</h2>
+                        <span class="badge skill-badge">Data Analysis</span>
+                        <span class="badge skill-badge">SQL (Beginner)</span>
+                        <span class="badge skill-badge">Python (Beginner)</span>
+                        <span class="badge skill-badge">HTML & CSS</span>
+                        <span class="badge skill-badge">JavaScript (Learning)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card skill-card h-100">
+                    <div class="card-body">
+                        <h2 class="h4">Professional Strengths</h2>
+                        <span class="badge skill-badge">Communication</span>
+                        <span class="badge skill-badge">Team Collaboration</span>
+                        <span class="badge skill-badge">Process Improvement</span>
+                        <span class="badge skill-badge">Attention to Detail</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="content-panel mt-5">
+            <h2 class="h3">Skills I'm Continuing to Develop</h2>
+            <p>I’m continuing to build confidence with programming, databases, and web development through class projects. My goal is to connect those technical skills with marketing and customer experience work.</p>
+            <button id="skills-detail-button" class="btn btn-primary" type="button">Show More</button>
+            <div id="skills-detail" class="mt-3" hidden>
+                <p class="mb-0">Current learning areas include writing SQL queries, using Python to work with data, building responsive web pages with Bootstrap, and using JavaScript to make pages interactive.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer text-center py-4">
+        <p class="mb-0">Thanks for exploring my portfolio!</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
